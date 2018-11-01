@@ -9,7 +9,7 @@ DNS failover using Cloudflare. It's designed to ensure the availability of a web
 
 ### Config
 It must be a well formed JSON as defined in RFC 7159 with the following structure:
-```json
+```javascript
 {
     "email":"your.email@email.com",
     "key":"your-cloudflare-api-key",
